@@ -4,28 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f141ac01af388e09",
+        "id": "536d635727830a1e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "00. Start Here.md",
             "mode": "preview"
           }
-        },
-        "group": "14c37961cafc62a7"
-      },
-      {
-        "id": "7a230df8f26b2a36",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "README.md",
-            "mode": "source"
-          }
-        },
-        "group": "14c37961cafc62a7"
+        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "00. Start Here.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,9 +97,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7a230df8f26b2a36",
+  "active": "536d635727830a1e",
   "lastOpenFiles": [
-    "README.md",
+    "00. Start Here.md",
     "- About Networking/3. MAC Address.md",
     "- About Networking/2. Subnet.md",
     "- About Networking/1. IP Address.md",
