@@ -6,17 +6,17 @@ This [Google Drive Folder](https://drive.google.com/drive/folders/1TFRKyLjhoXjmw
 
 I recommend [Hack Tricks](https://book.hacktricks.xyz/) as an alternative handbook by Carlos Polop.
 
-### Disclaimer
+## Disclaimer
 
 I do not own any of these resources, I am simply gathering all these scattered knowledge into one place for my (and your) convenience. Consider following the original creators which I will make sure to link appropiately.
 
 ***PLEASE make sure to use this knowledge ethically as I have provide no responsibility for your actions.***
 
-### Viewing Content
+## Viewing Content
 
 It is possible to view all the content of this handbook via GitHub. However if you want to quickly sort/search notes, I suggest downloading this repository and viewing it with [Obsidian](https://obsidian.md/) (*includes a nice graph view as well*) or any other software that can read markdown files.
 
-### About me
+## About me
 
 Undergraduate, gamer, lo-fi lover and a pentesting student. Send `aCursed_Comrade` some love when you spot him ye?
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Basic Knowledge.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Basic Knowledge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,8 +100,8 @@
   },
   "active": "cd634f9c76219064",
   "lastOpenFiles": [
-    "README.md",
     "Basic Knowledge.md",
+    "README.md",
     "About Networking/3. MAC Address.md",
     "About Networking/2. Subnet.md",
     "About Networking/1. IP Address.md",
