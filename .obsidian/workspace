@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cd634f9c76219064",
+        "id": "144d9ea03a32adf1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Basic Knowledge.md",
+            "file": "README.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basic Knowledge.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,10 +98,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "cd634f9c76219064",
+  "active": "144d9ea03a32adf1",
   "lastOpenFiles": [
-    "Basic Knowledge.md",
     "README.md",
+    "Basic Knowledge.md",
     "About Networking/3. MAC Address.md",
     "About Networking/2. Subnet.md",
     "About Networking/1. IP Address.md",

@@ -1,6 +1,8 @@
 Before diving into the world of pentesting, there are some things that you should have some understanding about.
 
-It's always good to look up more sources and ask around to gain more understanding on a topic.
+It's always good to look up more sources and ask around to gain more understanding on a topic. There's always more to learn.
+****
+
 #### - Networking aspects
 - [IP Addresses](https://en.wikipedia.org/wiki/IP_address)
 - [Subnets and Subnetting](https://en.wikipedia.org/wiki/Subnetwork)
