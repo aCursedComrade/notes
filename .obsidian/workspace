@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "101 - Pentest Methodology/Recon/1. Passive Recon Overview.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "101 - Pentest Methodology/Recon/1. Passive Recon Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,11 +100,11 @@
   },
   "active": "e630110a5b40dec4",
   "lastOpenFiles": [
+    "101 - Pentest Methodology/Recon/1. Passive Recon Overview.md",
     "README.md",
     "Basic Knowledge.md",
     "101 - Pentest Methodology/Recon/3. User Recon.md",
     "101 - Pentest Methodology/Recon/2. Web - Host Recon.md",
-    "101 - Pentest Methodology/Recon/1. Passive Recon Overview.md",
     "crt.sh.md",
     "About Networking/3. MAC Address.md",
     "About Networking/2. Subnet.md",
