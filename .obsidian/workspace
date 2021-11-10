@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Basic Knowledge.md",
+            "file": "README.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basic Knowledge.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,8 +100,8 @@
   },
   "active": "e630110a5b40dec4",
   "lastOpenFiles": [
-    "Basic Knowledge.md",
     "README.md",
+    "Basic Knowledge.md",
     "101 - Pentest Methodology/Recon/3. User Recon.md",
     "101 - Pentest Methodology/Recon/2. Web - Host Recon.md",
     "101 - Pentest Methodology/Recon/1. Passive Recon Overview.md",
