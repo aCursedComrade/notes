@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "144d9ea03a32adf1",
+        "id": "80e67d330b63ab15",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -98,14 +98,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "144d9ea03a32adf1",
+  "active": "80e67d330b63ab15",
   "lastOpenFiles": [
     "README.md",
+    "101 - Pentest Methodology/Recon/1. Passive Recon Overview.md",
+    "101 - Pentest Methodology/Recon/2. Web - Host Recon.md",
+    "101 - Pentest Methodology/Recon/3. User Recon.md",
     "Basic Knowledge.md",
+    "crt.sh.md",
     "About Networking/3. MAC Address.md",
     "About Networking/2. Subnet.md",
     "About Networking/1. IP Address.md",
-    "00. Start Here.md",
-    "- About Networking/.1 IP Address.md"
+    "00. Start Here.md"
   ]
 }
