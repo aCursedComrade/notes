@@ -1,4 +1,4 @@
-Before diving into the world of pentesting, there are some things that you should have some understanding about. Check out the beginners section in the resource section mentioned [here](README.md#^13c132) for more.
+Before diving into the world of pentesting, there are some things that you should have some understanding about. Check out the beginners section in the resource section mentioned [here](https://drive.google.com/drive/folders/1TFRKyLjhoXjmwDX41Ze_WRhEepPwQBXu?usp=sharing) for more.
 
 It's always good to look up more sources and ask around to gain more understanding on a topic. There's always more to learn.
 ****
