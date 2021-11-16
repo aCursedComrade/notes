@@ -8,31 +8,10 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"101 - Pentest Methodology\"",
+      "query": "path:\"101 - Pentest Methodology/Recon (OSINT)\"",
       "color": {
         "a": 1,
         "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:\"Active Directory\"",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:\"Web Apps\"",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    },
-    {
-      "query": "path:OSINT",
-      "color": {
-        "a": 1,
-        "rgb": 5431378
       }
     }
   ],
@@ -45,7 +24,7 @@
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.713275462622449,
+  "linkDistance": 215,
+  "scale": 1.053497942386833,
   "close": false
 }
