@@ -9,4 +9,4 @@ It is possible to view all the content of this handbook via GitHub. However if y
 
 ## Available Search Tags (For Obsidian)
 
-#OSINT | #WebApps | 
+#OSINT | #WebApps | #Scanning/Enumeration | 
