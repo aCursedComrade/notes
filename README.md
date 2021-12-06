@@ -1,4 +1,4 @@
-# Pentest/CTF-Handbook
+# Pentest-CTF-Handbook
 
 It's in the title, my ever expanding handbook for everything about pentesting/CTFs. This will be updated constantly-ish? with the knowledge I've gathered about pentesting/CTFs and InfoSec resources. I recommend looking into [Hacktricks]() which is a well handbook for various pentesting/CTF methodologies, tips and tricks.
 
@@ -7,4 +7,6 @@ This [Google Drive Folder](https://drive.google.com/drive/folders/1TFRKyLjhoXjmw
 ## Viewing Content
 
 It is possible to view all the content of this handbook via GitHub. For offline viewing, download this repo and view it through any application that can read markdown files.([Obsidian](https://obsidian.md/), [Trilium](https://www.electronjs.org/apps/trilium-notes), [Notion](https://www.notion.so/product), etc.)
+
+**Note**, if you are seeing this now, this handbook is still in early stages. I am still transferring my personal notes to this repo :)
 
