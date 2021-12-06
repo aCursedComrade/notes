@@ -5,7 +5,7 @@ This [Google Drive Folder](https://drive.google.com/drive/folders/1TFRKyLjhoXjmw
 
 ## Viewing Content
 
-It is possible to view all the content of this handbook via GitHub. However if you want to quickly sort/search notes, I suggest downloading this repository and viewing it with [Obsidian](https://obsidian.md/) (*includes a nice graph view, search by tags, etc*) or any other software that can read markdown files.
+It is possible to view all the content of this handbook via GitHub. For offline viewing, download this repo and view it through any application that can read markdown files.([Obsidian](https://obsidian.md/), [Trilium](https://www.electronjs.org/apps/trilium-notes), [Notion](https://www.notion.so/product), etc.)
 
 ## Available Search Tags (For Obsidian)
 
