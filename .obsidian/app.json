@@ -6,5 +6,6 @@
   "trashOption": "none",
   "useMarkdownLinks": true,
   "newFileLocation": "current",
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "spellcheck": true
 }
