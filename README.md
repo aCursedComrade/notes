@@ -4,7 +4,5 @@ It's in the title, my ever expanding handbook for everything about pentesting/CT
 
 [Resource collection](https://drive.google.com/drive/folders/1TFRKyLjhoXjmwDX41Ze_WRhEepPwQBXu?usp=sharing) - contains *most* of the resources mentioned in the notes + addtional resources/tools that can help out in the field (and for beginners).
 
-
-
-**Note**, if you are seeing this now, this handbook is still in early stages. I am still transferring my personal notes to this repo :)
+**Note**: if you are seeing this now, this handbook is still in early stages. I am still transferring my personal notes to this repo :)
 
