@@ -7,5 +7,6 @@
   "useMarkdownLinks": true,
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "defaultViewMode": "source"
 }

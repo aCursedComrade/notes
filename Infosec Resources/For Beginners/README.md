@@ -1,0 +1,38 @@
+-   [DFIRmadness / 5pillars](https://github.com/DFIRmadness/5pillars/blob/master/5-Pillars.md)
+	-   A guide for your first steps into the field
+-   Quoted from [@thecybermentor’s video guide](https://youtu.be/u4VWQZ8KLmI) (Watch first)
+	-   Basic IT Skills:
+		-   [Professor Messer’s CompTIA 220-1001 and 220-1002 A+ Training Course](https://www.professormesser.com/free-a-plus-training/220-1001/220-1000-training-course/)
+		-   [How to Build a PC! Step-by-step](https://www.youtube.com/watch?v=IhX0fOUYd8Q&t=0s)
+	-   Networking Skills:
+		-   [Professor Messer’s CompTIA N10-007 Network+ Course](https://www.professormesser.com/network-plus/n10-007/n10-007-training-course/)
+		-   [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer)
+		-   [TOTAL: CompTIA Network+ Certification (N10-007)](https://www.udemy.com/course/comptia-network-cert-n10-007-the-total-course/)
+	-   Linux Skills:
+		-   [Linux Journey](https://linuxjourney.com/)
+		-   [OverTheWire: Bandit](https://overthewire.org/wargames/bandit/) (and more games)
+		-   [The Complete Linux for Ethical Hackers Course for 2019](https://www.youtube.com/watch?v=rZsJieGi8os)
+	-   Coding Skills
+		-   [Code Academy](https://www.codecademy.com/)
+		-   [freeCodeCamp](https://www.freecodecamp.org/)
+		-   [treehouse](https://teamtreehouse.com/)
+	-   Basic Hacking + AD Skills
+		-   [TryHackMe](https://tryhackme.com/)
+		-   [Beginner Network Penetration Testing (2019)](https://www.youtube.com/watch?v=WnN6dbos5u8)
+		-   [Practical Ethical Hacking](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course) by TCM Security Academy
+	-   Web App:
+		-   [PortSwigger Academy](https://portswigger.net/web-security)
+		-   [hacker101](https://www.hacker101.com/)
+		-   [Bugcrowd University](https://www.bugcrowd.com/hackers/bugcrowd-university/)
+		-   Disclosed reports on [hackerone](https://hackerone.com/hacktivity)
+	-   Wireless:
+		-   [Aircrack-ng](https://www.aircrack-ng.org/doku.php?id=cracking_wpa)
+-   [stong / infosec-resources](https://github.com/stong/infosec-resources)
+	-   A list of helpful cybersecurity / infosec resources
+-   [Juice Shop by OWASP](https://github.com/juice-shop/juice-shop)
+	-   OWASP Juice Shop: Probably the most modern and sophisticated insecure web application to learn about web apps pentesting.
+-   [Wargames by UnderTheWire](https://underthewire.tech/wargames)
+	-   Powershell training gamified.
+-   [XSS Games](https://xss-game.appspot.com/)    
+-   [Sourcing Games](https://sourcing.games/) - Sauce?
+

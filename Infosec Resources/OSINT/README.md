@@ -1,0 +1,17 @@
+-   [01 Sprp77's OSINT Resources](https://drive.google.com/drive/folders/1CBcemFdorkAqJ-Sthsh67OVHgH4FQF05)
+	-   Collection of OSINT tools and Methodologies by Super Search
+-   [sinwindie / OSINT](https://github.com/sinwindie/OSINT)
+	-   Collection of OSINT tools and Methodologies
+-   [Awesome OSINT](https://github.com/jivoi/awesome-osint)
+	-   A curated list of amazingly awesome OSINT
+-   More collections hosted on start.me
+	-   [The Ultimate OSINT Collection](https://start.me/p/DPYPMz/the-ultimate-osint-collection)
+			-   Contains a variety of resources related to OSINT
+	-   [OSINT Tools (curated by Lorand Bodo)](https://start.me/p/7kxyy2/osint-tools-curated-by-lorand-bodo)
+	-   [Threat Intel/OSINT](https://start.me/p/rxRbpo/ti)
+	-   [Databases](https://start.me/p/QRENnO/databases) (and more)
+	-   [ASINT Collection](https://start.me/p/b5Aow7/asint_collection)
+-   [Image Forensics](https://29a.ch/photo-forensics/#forensic-magnifier)
+-   [OSINT Map](https://cipher387.github.io/osintmap/) with country/state related info.
+	-   [@cyb_detective](https://github.com/cipher387?tab=repositories)’s projects
+
