@@ -11,6 +11,7 @@
 	-   [Threat Intel/OSINT](https://start.me/p/rxRbpo/ti)
 	-   [Databases](https://start.me/p/QRENnO/databases) (and more)
 	-   [ASINT Collection](https://start.me/p/b5Aow7/asint_collection)
+-   [Advanced search operators](https://github.com/cipher387/Advanced-search-operators-list)
 -   [Image Forensics](https://29a.ch/photo-forensics/#forensic-magnifier)
 -   [OSINT Map](https://cipher387.github.io/osintmap/) with country/state related info.
 	-   [@cyb_detective](https://github.com/cipher387?tab=repositories)’s projects

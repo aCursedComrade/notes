@@ -6,3 +6,5 @@ It's in the title, my ever expanding handbook for everything about pentesting/CT
 
 **Note**: if you are seeing this now, this handbook is still in early stages. I am still transferring my personal notes to this repo :)
 
+Currently working on : **OSINT and Active Directory**
+
