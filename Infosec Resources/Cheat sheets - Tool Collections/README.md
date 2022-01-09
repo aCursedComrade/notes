@@ -1,16 +1,18 @@
--   [OWASP / CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries)
-	-   The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics
--   [HackTricks](https://book.hacktricks.xyz/) by Carlos Polop
--   [enaqx / awesome-pentest](https://github.com/enaqx/awesome-pentest)
-	-   A collection of awesome penetration testing resources, tools and other shiny things
--   [yeyintminthuhtut / Awesome-Red-Teaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming)
-	-   List of Awesome Red Teaming Resources
--   [Toolkit Collection](https://0xcybery.github.io/ehtk/) by @0xCyberY
--   [GTFOBins](https://gtfobins.github.io/) 
-	-   Privilege escalation/”living off the land” methods for Unix binaries
--   [LOLBAS](https://lolbas-project.github.io/)
-	-   Privilege escalation/”living off the land” methods for Windows binaries
--   Reverse shells:
-	-   [RevShell generator](https://www.revshells.com/)
-	-   [Cheat sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) by @pentestmonkey
+- [OWASP / CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries)
+	- The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics
+- [HackTricks](https://book.hacktricks.xyz/) by Carlos Polop
+- [enaqx / awesome-pentest](https://github.com/enaqx/awesome-pentest)
+	- A collection of awesome penetration testing resources, tools and other shiny things
+- [yeyintminthuhtut / Awesome-Red-Teaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming)
+	- List of Awesome Red Teaming Resources
+- [Toolkit Collection](https://0xcybery.github.io/ehtk/) by @0xCyberY
+- [GTFOBins](https://gtfobins.github.io/) 
+	- Privilege escalation/”living off the land” methods for Unix binaries
+- [LOLBAS](https://lolbas-project.github.io/)
+	- Privilege escalation/”living off the land” methods for Windows binaries
+- [WADcoms](https://wadcoms.github.io/)
+	- List of offensive security tools and their respective commands, to be used against Windows/AD environments.
+- Reverse shells:
+	- [RevShell generator](https://www.revshells.com/)
+	- [Cheat sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) by @pentestmonkey
 
