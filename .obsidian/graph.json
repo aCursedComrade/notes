@@ -8,10 +8,31 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"101 - Pentest Methodology/Recon (OSINT)\"",
+      "query": "path:\"101 - Basic Tools & Methodology\"",
       "color": {
         "a": 1,
         "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Active Directory\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Infosec Resources\"",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"OSINT Methodologies\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
       }
     }
   ],
@@ -19,12 +40,12 @@
   "showArrow": false,
   "textFadeMultiplier": -0.3,
   "nodeSizeMultiplier": 1.14700854700855,
-  "lineSizeMultiplier": 1,
+  "lineSizeMultiplier": 1.3982905982906,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 215,
-  "scale": 0.75143423222776,
+  "scale": 0.535979599622599,
   "close": false
 }

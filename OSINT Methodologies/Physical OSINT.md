@@ -1,3 +1,5 @@
+#OSINT 
+
 # Physical / Geo OSINT 
 
 Done with satellite imaging or on-site reconnaissance (with drones, etc). Depending on the assessment, you will need to find various information about the site you are targeting. Let's say if its some kind of an office building, *what are entry/exit points you can identify? Locations of card readers/checkpoints? Where are the security personnel are stationed at? Is there any public accessible resting ares with employees? Possible ways to use social engineering on employee for your advantage? Hows the surrounding area looks like?* and similar questioning and analysis.

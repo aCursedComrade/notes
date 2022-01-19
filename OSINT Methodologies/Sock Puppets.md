@@ -1,3 +1,5 @@
+#OSINT 
+
 # Sock Puppets
 
 - What are "Sock Puppets" and how to create a good sock :
