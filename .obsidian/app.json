@@ -3,5 +3,6 @@
   "attachmentFolderPath": "./Attachments",
   "trashOption": "none",
   "strictLineBreaks": false,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "spellcheck": true
 }
