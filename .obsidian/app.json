@@ -4,5 +4,6 @@
   "trashOption": "none",
   "strictLineBreaks": false,
   "useMarkdownLinks": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "promptDelete": false
 }
