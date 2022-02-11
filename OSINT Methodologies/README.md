@@ -5,6 +5,10 @@
 Open source intelligence related methodologies and tools.
 
 - [Sock Puppets](Sock%20Puppets.md)
+- [OSINT-related tools](OSINT-related%20tools.md)
+
+***
+
 - [Business OSINT](Business%20OSINT.md)
 - [E-mail OSINT](E-mail%20OSINT.md)
 - [Image OSINT](Image%20OSINT.md)
@@ -16,4 +20,6 @@ Open source intelligence related methodologies and tools.
 - [Username OSINT](Username%20OSINT.md)
 - [Website OSINT](Website%20OSINT.md)
 - [Wireless OSINT](Wireless%20OSINT.md)
+
+
 
