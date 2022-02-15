@@ -6,6 +6,8 @@
 - [yeyintminthuhtut / Awesome-Red-Teaming](https://github.com/yeyintminthuhtut/Awesome-Red-Teaming)
 	- List of Awesome Red Teaming Resources
 - [Toolkit Collection](https://0xcybery.github.io/ehtk/) by @0xCyberY
+- [swisskyrepo / PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
+	-   A list of useful payloads and bypass for Web Application Security and Pentest/CTF.
 - [GTFOBins](https://gtfobins.github.io/) 
 	- Privilege escalation/”living off the land” methods for Unix binaries
 - [LOLBAS](https://lolbas-project.github.io/)

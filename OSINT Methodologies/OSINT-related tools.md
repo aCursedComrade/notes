@@ -24,6 +24,7 @@ Anything that can read image metadata
 - Wappalyzer (extension) | `whatweb` - Fingerprinting
 - `assestfinder` | `subfinder` | `subli3tr` - Sub-domain enumeration
 - `httprobe` | `whois` - Validation
+- `amass`
 - `gowitness`
 
 ### Frameworks
