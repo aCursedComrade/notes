@@ -1,17 +1,16 @@
 # Infosec Resources
 
-- [For Beginners](For%20Beginners/README.md)
-- [Concepts & Knowledge](For%20Beginners/Concepts%20&%20Knowledge.md)
-- [OSINT](OSINT/README.md)
-- [Web Apps](Web%20Apps/README.md)
-- [Payloads - Malware Samples](Payloads%20-%20Exploits%20-%20Malware/README.md)
-- [Cheat Sheets - Tool Collections](Cheat%20Sheets%20-%20Tool%20Collections/README.md)
+- [For Beginners](Resources%20for%20Beginners.md)
+- [OSINT](OSINT.md)
+- [Web Apps](Web%20Applications.md)
+- [Payloads - Malware Samples](Payloads%20and%20Malware.md)
+- [Cheat Sheets - Tool Collections](Cheat%20sheets%20and%20Tools.md)
 
 ***
 
 - Pentest Mindmap :
-![](Pentest%20Mindmap.png)
+![](Diagrams/Pentest%20Mindmap.png)
 
 - AD Pentesting :
-![](Active%20Directory%20Pentesting.png)
+![](Diagrams/Active%20Directory%20Pentesting.png)
 

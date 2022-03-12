@@ -4,10 +4,13 @@
   "trashOption": "none",
   "strictLineBreaks": false,
   "useMarkdownLinks": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "spellcheckDictionary": [
-    "misconfigured"
-  ]
+    "misconfigured",
+    "behaviours",
+    "behaviour"
+  ],
+  "communityThemeSortOrder": "download"
 }
