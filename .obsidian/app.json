@@ -6,5 +6,5 @@
   "attachmentFolderPath": "./Attachments",
   "alwaysUpdateLinks": true,
   "defaultViewMode": "preview",
-  "spellcheck": false
+  "spellcheck": true
 }
