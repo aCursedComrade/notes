@@ -5,6 +5,7 @@
 Important resources:
 - [Local Privilege Escalation Workshop](https://github.com/sagishahar/lpeworkshop) by Sagi Shahar
 - **Windows:**
+	- [Windows Privilege Escalation Fundamentals - FuzzSecurity](https://www.fuzzysecurity.com/tutorials/16.html)
 	- [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md) for Windows privilege escalation.
 	- [WinPeas](https://github.com/carlospolop/PEASS-ng/releases) - Automated privesc enumration
 	- [Windows PrivEsc Checklist](https://book.hacktricks.xyz/windows-hardening/checklist-windows-privilege-escalation)
@@ -17,4 +18,3 @@ Important resources:
 	- [Linux Priv Checker](https://github.com/sleventyeleven/linuxprivchecker)
 	- [Linux PrivEsc Checklist](https://book.hacktricks.xyz/linux-hardening/linux-privilege-escalation-checklist)
 	- [GTFOBins](https://gtfobins.github.io) - Curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.
-

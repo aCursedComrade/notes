@@ -14,4 +14,3 @@ About brute-force protection:
 - If data is handled as JSON values, attacker can attempt to send multiple values as an array for a single key/object within a single request.
 - Paying attention header values (cookies, tokens, etc) to see if they are weakly encoded and potentially reveal sensitive that can leveraged to gain some sort of access or lead to other exploitation.
 
-### 

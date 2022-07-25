@@ -3,8 +3,8 @@
 - [For Beginners](Resources%20for%20Beginners.md)
 - [OSINT](OSINT.md)
 - [Web Apps](Web%20Applications.md)
-- [Payloads - Malware Samples](Payloads%20and%20Malware.md)
-- [Cheat Sheets - Tool Collections](Cheat%20sheets%20and%20Tools.md)
+- [Payloads - Malware Samples](Exploits%20and%20Malware%20Databases.md)
+- [Cheat Sheets - Tool Collections](Cheat-sheets%20and%20Information.md)
 
 ***
 

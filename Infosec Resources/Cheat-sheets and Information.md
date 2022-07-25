@@ -9,12 +9,12 @@
 - [swisskyrepo / PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 	-   A list of useful payloads and bypass for Web Application Security and Pentest/CTF.
 - [GTFOBins](https://gtfobins.github.io/) 
-	- Privilege escalation/”living off the land” methods for Unix binaries
+	- Privilege escalation/”living off the land” methods for native Linux binaries
 - [LOLBAS](https://lolbas-project.github.io/)
-	- Privilege escalation/”living off the land” methods for Windows binaries
+	- Privilege escalation/”living off the land” methods for native Windows binaries
 - [WADcoms](https://wadcoms.github.io/)
 	- List of offensive security tools and their respective commands, to be used against Windows/AD environments.
 - Reverse shells:
 	- [RevShell generator](https://www.revshells.com/)
 	- [Cheat sheet](https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet) by @pentestmonkey
-
+- [FuzzSecurity](https://www.fuzzysecurity.com/index.html)
