@@ -1,0 +1,9 @@
+{
+  "newLinkFormat": "absolute",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "livePreview": false,
+  "attachmentFolderPath": "./Attachments",
+  "promptDelete": false
+}
