@@ -5,5 +5,11 @@
   "useMarkdownLinks": true,
   "livePreview": false,
   "attachmentFolderPath": "./Attachments",
-  "promptDelete": false
+  "promptDelete": false,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "en-US",
+    "en-GB"
+  ],
+  "communityThemeSortOrder": "downloadReverse"
 }
