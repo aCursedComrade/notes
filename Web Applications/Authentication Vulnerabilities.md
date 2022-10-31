@@ -45,4 +45,11 @@ Few points to look out for when testing MFA system;
 - Even when not visible, there can be basic identifiers which contains information about which user's password is being changed. If present, these forms acts quite similar to a login form.
 - When such forms exists without much protection, an attacker may use an account made by them and use this feature to brute-force password to known users (or vise-versa).
 
+### OAuth 2.0
+> OAuth is a commonly used authorization framework that enables websites and web applications to request limited access to a user's account on another application. Crucially, OAuth allows the user to grant this access without exposing their login credentials to the requesting application. This means users can fine-tune which data they want to share rather than having to hand over full control of their account to a third party.
+
+- [OAuth 2.0 Vulnerabilities - PortSwigger](https://portswigger.net/web-security/oauth)
+- [OAuth Grant Types - PortSwigger](https://portswigger.net/web-security/oauth/grant-types)
+
 [^1]: [Dangling markup injection](https://portswigger.net/web-security/cross-site-scripting/dangling-markup)
+

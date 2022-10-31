@@ -1,5 +1,6 @@
 {
   "cssTheme": "Kanagawa",
   "translucency": false,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "accentColor": ""
 }

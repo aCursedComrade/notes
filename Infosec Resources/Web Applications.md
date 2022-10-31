@@ -3,4 +3,4 @@
 -   [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 	-   The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications
 -   [PortSwigger Academy](https://portswigger.net/web-security)
-
+	- Highly recommended place to learn about web vulns or use to use as a quick reference guide
