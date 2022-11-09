@@ -1,1 +1,0 @@
-This contains the notes from "Protect Everything Challenge" from Microsoft Ignite event.
