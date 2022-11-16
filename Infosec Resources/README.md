@@ -7,10 +7,9 @@
 - [Cheat Sheets - Tool Collections](Cheat-sheets%20and%20Information.md)
 
 ***
+> - <u>**Bug Bounty mind map**</u> : ![](Diagrams/Pentest%20Mindmap.png)
 
-- Pentest Mindmap :
-![](Diagrams/Pentest%20Mindmap.png)
+> - <u>**Active Directory Pentesting mind map** by Orange Cyberdefense</u> : [Original](https://orange-cyberdefense.github.io/ocd-mindmaps/img/pentest_ad_dark_2022_11.svg) | [Backup](Infosec%20Resources/Diagrams/pentest_ad_dark_2022_11.svg)
 
-- AD Pentesting :
-![](Diagrams/Active%20Directory%20Pentesting.png)
+> - <u>**Linux File System**</u> : ![Linux File System](Infosec%20Resources/Diagrams/Linux%20File%20System.png)
 

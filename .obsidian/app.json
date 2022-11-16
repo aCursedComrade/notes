@@ -8,8 +8,8 @@
   "promptDelete": false,
   "spellcheck": true,
   "spellcheckLanguages": [
-    "en-US",
-    "en-GB"
+    "en-US"
   ],
-  "communityThemeSortOrder": "downloadReverse"
+  "communityThemeSortOrder": "downloadReverse",
+  "autoConvertHtml": false
 }

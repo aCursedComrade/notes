@@ -46,10 +46,24 @@ Few points to look out for when testing MFA system;
 - When such forms exists without much protection, an attacker may use an account made by them and use this feature to brute-force password to known users (or vise-versa).
 
 ### OAuth 2.0
-> OAuth is a commonly used authorization framework that enables websites and web applications to request limited access to a user's account on another application. Crucially, OAuth allows the user to grant this access without exposing their login credentials to the requesting application. This means users can fine-tune which data they want to share rather than having to hand over full control of their account to a third party.
+OAuth is a commonly used authorization framework that enables websites and web applications to request limited access to a user's account on another application. Crucially, OAuth allows the user to grant this access without exposing their login credentials to the requesting application. This means users can fine-tune which data they want to share rather than having to hand over full control of their account to a third party.
 
 - [OAuth 2.0 Vulnerabilities - PortSwigger](https://portswigger.net/web-security/oauth)
 - [OAuth Grant Types - PortSwigger](https://portswigger.net/web-security/oauth/grant-types)
+
+#### Quick Overview of Grant Types
+1. **Authorization Code Grant Type** ![](Web%20Applications/Attachments/Pasted%20image%2020221116190225.png)
+2. **Implicit Grant Type** ![](Web%20Applications/Attachments/Pasted%20image%2020221116190139.png)
+
+#### Recon
+It goes without saying that you should study the various HTTP interactions that make up the OAuth flow - we'll go over some specific things to look out for later. If an external OAuth service is used, you should be able to identify the specific provider from the hostname to which the authorization request is sent. As these services provide a public API, there is often detailed documentation available that should tell you all kinds of useful information, such as the exact names of the endpoints and which configuration options are being used.
+
+Once you know the hostname of the authorization server, you should always try sending a GET request to the following standard endpoints:
+
+- `/.well-known/oauth-authorization-server`
+- `/.well-known/openid-configuration`
+
+These will often return a JSON configuration file containing key information, such as details of additional features that may be supported. This will sometimes tip you off about a wider attack surface and supported features that may not be mentioned in the documentation.
 
 [^1]: [Dangling markup injection](https://portswigger.net/web-security/cross-site-scripting/dangling-markup)
 
