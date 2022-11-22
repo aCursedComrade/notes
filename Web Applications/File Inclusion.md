@@ -2,7 +2,7 @@
 
 # File Inclusion
 
-### Path Traversal
+## Path Traversal
 Also known as Directory traversal, a web security vulnerability allows an attacker to read operating system resources, such as local files on the server running an application. The attacker exploits this vulnerability by manipulating and abusing the web application's URL to locate and access files or directories stored outside the application's root directory.
 
 Path traversal vulnerabilities occur when the user's input is passed to a function such as file_get_contents in PHP. It's important to note that the function is not the main contributor to the vulnerability. Often poor input validation or filtering is the cause of the vulnerability. In PHP, you can use the file_get_contents to read the content of a file. You can find more information about the function [here](https://www.php.net/manual/en/function.file-get-contents.php).
@@ -29,7 +29,7 @@ The same concept applies here as with Linux operating systems, where we climb up
 
 Sometimes, developers will add filters to limit access to only certain files or directories.
 
-### Interesting files
+## Interesting files
 List of interesting files to look for
 - **/etc/issue** - contains a message or system identification to be printed before the login prompt.
 - **/etc/profile** - controls system-wide default variables, such as Export variables, File creation mask (umask), Terminal types, Mail messages to indicate when new mail has arrived
@@ -43,7 +43,7 @@ List of interesting files to look for
 - **/var/log/apache2/access.log** - the accessed requests for Apache webserver
 - **C:\boot.ini or C:\Windows\win.ini** - contains the boot options for computers with BIOS firmware
 
-### Local File Inclusion (LFI)
+## Local File Inclusion (LFI)
 
 LFI attacks against web applications are often due to a developers' lack of security awareness. With PHP, using functions such as include, require, include_once, and require_once often contribute to vulnerable web applications. In this room, we'll be picking on PHP, but it's worth noting LFI vulnerabilities also occur when using other languages such as ASP, JSP, or even in Node.js apps. LFI exploits follow the same concepts as path traversal.  
 
@@ -79,7 +79,7 @@ Again the payload looks similar to the path traversal, but the include function
 
 http://webapp.thm/index.php?lang=../../../../etc/passwd
 
-### Techniques to bypass filters
+## Techniques to bypass filters
 
 **1.** In the first two cases, we checked the code for the web app, and then we knew how to exploit it. However, in this case, we are performing black box testing, in which we don't have the source code. In this case, errors are significant in understanding how the data is passed and processed into the web app.
 
@@ -147,7 +147,7 @@ Try out Lab #5 and try to read /etc/passwd and bypass the filter!
 
 **4.** Finally, we'll discuss the case where the developer forces the include to read from a defined directory! For example, if the web application asks to supply input that has to include a directory such as: http://webapp.thm/index.php?lang=languages/EN.php then, to exploit this, we need to include the directory in the payload like so: ?lang=languages/../../../../../etc/passwd.
 
-### Remote File Inclusion - RFI
+## Remote File Inclusion - RFI
 Remote File Inclusion (RFI) is a technique to include remote files and into a vulnerable application. Like LFI, the RFI occurs when improperly sanitizing user input, allowing an attacker to inject an external URL into include function. One requirement for RFI is that the allow_url_fopen option needs to be on.  
 
 The risk of RFI is higher than LFI since RFI vulnerabilities allow an attacker to gain Remote Command Execution (RCE) on the server. Other consequences of a successful RFI attack include:

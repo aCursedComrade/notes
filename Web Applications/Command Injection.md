@@ -2,7 +2,7 @@
 
 # Command Injection
 
-### Discovering Command Injection
+## Discovering Command Injection
 This vulnerability exists because applications often use functions in programming languages such as PHP, Python and NodeJS to pass data to and to make system calls on the machine’s operating system. For example, taking input from a field and searching for an entry into a file. Take this code snippet below as an example:
 
 In this code snippet, the application takes data that a user enters in an input field named `$title`to search a directory for a song title. Let’s break this down into a few simple steps.
@@ -31,7 +31,7 @@ Note, you are not expected to understand the syntax behind these applications. H
 2.  A function that uses the "subprocess" package to execute a command on the device
 3.  We use a route in the webserver that will execute whatever is provided. For example, to execute `whoami`, we'd need to visit http://flaskapp.thm/whoami
 
-### Exploiting Command Injection
+## Exploiting Command Injection
 You can often determine whether or not command injection may occur by the behaviours of an application, as you will come to see in the practical session of this room.
 
 Applications that use user input to populate system commands with data can often be combined in unintended behaviour. **For example, the shell operators `;`, `&` and `&&` will combine two (or more) system commands and execute them both**.
@@ -61,7 +61,7 @@ Detecting command injection this way is arguably the easiest method of the two. 
 
 For example, the output of commands such as `ping` or `whoami` is directly displayed on the web application.
 
-### Useful payloads
+## Useful payloads
 **Linux**
 1. `whoami` - See what user the application is running under.
 2. `ls` - List the contents of the current directory. You may be able to find files such as configuration files, environment files (tokens and application keys), and many more valuable things.
@@ -75,7 +75,7 @@ For example, the output of commands such as `ping` or `whoami` is directly displ
 3. `ping` - This command will invoke the application to hang. This will be useful in testing an application for blind command injection.
 4. `timeout` -This command will also invoke the application to hang. It is also useful for testing an application for blind command injection if the `ping` command is not installed.
 
-### Bypassing Filters
+## Bypassing Filters
 
 Applications will employ numerous techniques in filtering and sanitising data that is taken from a  user's input. These filters will restrict you to specific payloads; however, we can abuse the logic behind an application to bypass these filters. For example, an application may strip out quotation marks; we can instead use the hexadecimal value of this to achieve the same result.
 

@@ -2,7 +2,7 @@
 
 # Cross-Site Scripting
 
-### Sample Payloads
+## Sample Payloads
 **Proof Of Concept:**
 This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text, for example:
 
@@ -33,7 +33,7 @@ This payload is a lot more specific than the above examples. This would be about
 
 Now that the email address for the account has changed, the attacker may perform a reset password attack.
 
-### Reflected XSS
+## Reflected XSS
 Reflected XSS happens when user-supplied data in an HTTP request is included in the webpage source without any validation.
 
 **Example Scenario:**  
@@ -64,7 +64,7 @@ You'll need to test every possible point of entry; these include:
 
 Once you've found some data which is being reflected in the web application, you'll then need to confirm that you can successfully run your JavaScript payload; your payload will be dependent on where in the application your code is reflected.
 
-### Stored XSS
+## Stored XSS
 As the name infers, the XSS payload is stored on the web application (in a database, for example) and then gets run when other users visit the site or web page.  
   
 **Example Scenario:**  
@@ -85,7 +85,7 @@ Sometimes developers think limiting input values on the client-side is good enou
 
 Once you've found some data which is being stored in the web application,  you'll then need to confirm that you can successfully run your JavaScript payload; your payload will be dependent on where in the application your code is reflected.
 
-### DOM Based XSS
+## DOM Based XSS
 **What is the DOM?**  
 DOM stands for **D**ocument **O**bject **M**odel and is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style and content. A web page is a document, and this document can be either displayed in the browser window or as the HTML source. A diagram of the HTML DOM is displayed below:
 
@@ -107,7 +107,7 @@ DOM Based XSS can be challenging to test for and requires a certain amount of kn
 
 When you've found those bits of code, you'd then need to see how they are handled and whether the values are ever written to the web page's DOM or passed to unsafe JavaScript methods such as **eval()**.
 
-### Blind XSS
+## Blind XSS
 Blind XSS is similar to a stored XSS (which we covered in task 4) in that your payload gets stored on the website for another user to view, but in this instance, you can't see the payload working or be able to test it against yourself first.  
   
 **Example Scenario:**    

@@ -2,20 +2,20 @@
 
 # SSRF
 
-### What is an SSRF?
+## What is an SSRF?
 SSRF stands for Server-Side Request Forgery. It's a vulnerability that allows a malicious user to cause the webserver to make an additional or edited HTTP request to the resource of the attacker's choosing.
 
-### Types of SSRF
+## Types of SSRF
 There are two types of SSRF vulnerability; the first is a regular SSRF where data is returned to the attacker's screen. The second is a Blind SSRF vulnerability where an SSRF occurs, but no information is returned to the attacker's screen.
 
-### What's the impact?
+## What's the impact?
 A successful SSRF attack can result in any of the following: 
 -   Access to unauthorized areas.
 -   Access to customer/organizational data.
 -   Ability to Scale to internal networks.
 -   Reveal authentication tokens/credentials.
 
-### Finding out an SSRF
+## Finding out an SSRF
 Potential SSRF vulnerabilities can be spotted in web applications in many different ways. Here is an example of four common places to look:
 
 **When a full URL is used in a parameter in the address bar:**
@@ -34,7 +34,7 @@ Some of these examples are easier to exploit than others, and this is where a lo
 
 If working with a blind SSRF where no output is reflected back to you, you'll need to use an external HTTP logging tool to monitor requests such as requestbin.com, your own HTTP server or Burp Suite's Collaborator client.
 
-### Carrying out an SSRF
+## Carrying out an SSRF
 **1.** The below example shows how the attacker can have complete control over the page requested by the webserver. The Expected Request is what the website.thm server is expecting to receive, with the section in red being the URL that the website will fetch for the information.  
 The attacker can modify the area in red to an URL of their choice.
 ![](https://static-labs.tryhackme.cloud/sites/ssrf-examples/images/ssrf_1.png)
@@ -48,7 +48,7 @@ The attacker can modify the area in red to an URL of their choice.
 **4.** Going back to the original request, the attacker can instead force the webserver to request a server of the attacker's choice. By doing so, we can capture request headers that are sent to the attacker's specified domain. These headers could contain authentication credentials or API keys sent by website.thm (that would normally authenticate to api.website.thm).
 ![](https://static-labs.tryhackme.cloud/sites/ssrf-examples/images/ssrf_4.png)
 
-### Bypassing Common Defenses
+## Bypassing Common Defenses
 **Deny List**
 A Deny List is where all requests are accepted apart from resources specified in a list or matching a particular pattern. A Web Application may employ a deny list to protect sensitive endpoints, IP addresses or domains from being accessed by the public while still allowing access to other locations. A specific endpoint to restrict access is the localhost, which may contain server performance data or further sensitive information, so domain names such as localhost and 127.0.0.1 would appear on a deny list. Attackers can bypass a Deny List by using alternative localhost references such as 0, 0.0.0.0, 0000, 127.1, 127.\*.\*.\*, 2130706433, 017700000001 or subdomains that have a DNS record which resolves to the IP Address 127.0.0.1 such as 127.0.0.1.nip.io.
 

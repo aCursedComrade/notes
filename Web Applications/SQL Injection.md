@@ -4,7 +4,7 @@
 - [SQLi cheatsheet by Port Swigger](https://portswigger.net/web-security/sql-injection/cheat-sheet)
 - [PayloadsAllTheThings - SQLi](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection)
 
-### Entry point detection
+## Entry point detection
 [Common payloads](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/SQL%20Injection#entry-point-detection) to force errors.
 
 ```
@@ -20,12 +20,12 @@ Errors thrown out can be visible by whole, hinted by subtle changes (HTTP status
 
 Most statements tend to be same across many DBMSs, with few exceptions regarding syntax and naming convention.
 
-### UNION based attacks
+## UNION based attacks
 For a `UNION` query to work, two key requirements must be met:
 -   The individual queries must return the same number of columns.
 -   The data types in each column must be compatible between the individual queries.
 
-#### Determining the number of columns:
+### Determining the number of columns:
 - 1st method
 ```
 ' ORDER BY 1--
@@ -53,7 +53,7 @@ On Oracle, SELECT queries must use FROM keyword to execute. As a workaround, the
 
 '--' used here are used for comments and it can be different for other languages.
 
-#### Determining the data type of columns:
+### Determining the data type of columns:
 As an example, testing if the columns can hold `string` values:
 ```
 ' UNION SELECT 'abc',NULL,NULL,NULL--
@@ -64,7 +64,7 @@ As an example, testing if the columns can hold `string` values:
 
 When successful, the returned output will have the given string attached to it.
 
-### Databse enumeration
+## Databse enumeration
 Grabbing version banners:
 - Oracle
 ```
@@ -89,7 +89,7 @@ SELECT table_name FROM all_tables
 SELECT column_name FROM all_tab_columns WHERE table_name = 'TABLE NAME'
 ```
 
-### Retrieving data
+## Retrieving data
 Suppose that:
 -   The original query returns two columns, both of which can hold string data.
 -   The injection point is a quoted string within the `WHERE` clause.
@@ -112,6 +112,6 @@ Combining values to a single column:
 
 Useful when enumeration returns only a few columns that can hold data. Refer to [documentation](https://portswigger.net/web-security/sql-injection/cheat-sheet) to know how concatenation works in other SQL variants.
 
-### Blind and Out-of-Band SQL Injection
+## Blind and Out-of-Band SQL Injection
 [PortSwigger Article](https://portswigger.net/web-security/sql-injection/blind)
 
