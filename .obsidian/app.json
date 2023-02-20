@@ -11,5 +11,6 @@
     "en-US"
   ],
   "communityThemeSortOrder": "downloadReverse",
-  "autoConvertHtml": true
+  "autoConvertHtml": true,
+  "defaultViewMode": "preview"
 }
