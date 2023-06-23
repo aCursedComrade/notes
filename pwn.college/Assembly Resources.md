@@ -1,0 +1,11 @@
+- [NASM Docs](https://www.nasm.us/doc/)
+	- [Quick tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
+	- [ASM tutor](https://asmtutor.com/#lesson29)
+- [x86-64 Assembly Language Programming with Ubuntu](https://open.umn.edu/opentextbooks/textbooks/733) ([PDF](http://www.egr.unlv.edu/~ed/assembly64.pdf))
+- [WikiBook: x86 Assembly](https://en.wikibooks.org/wiki/X86_Assembly)
+- [Pseudo Ops](https://sourceware.org/binutils/docs/as/Pseudo-Ops.html) (parent document is about GNU assembler `as`)
+- System call tables:
+	- [Linux x86-64 system call table](https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/) (cross-references included)
+	- [syscall.sh](https://syscall.sh/)
+- Detailed manuals for Linux (POSIX) system calls are available in `man` pages (use `man <syscall/data type>` in the terminal)
+- Find constants by using `grep` in `/usr/include/linux` directory which contains source headers or looking through the [kernel archive](https://www.kernel.org/)
