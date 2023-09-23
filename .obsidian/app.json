@@ -3,13 +3,11 @@
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "livePreview": false,
+  "livePreview": true,
   "attachmentFolderPath": "./Attachments",
   "promptDelete": false,
   "spellcheck": true,
-  "spellcheckLanguages": [
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "communityThemeSortOrder": "downloadReverse",
   "autoConvertHtml": true,
   "defaultViewMode": "preview"
